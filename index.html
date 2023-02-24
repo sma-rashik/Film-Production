@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: "#FECC02",
+                        black: "#131313",
+                        gray: "#4E4E4E",
+                    },
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "cursive"],
+                        montserrat: ["Montserrat", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+
+    <nav class="bg-white fixed top-0 left-0 right-0 ">
+        <div class="flex justify-between items-center h-10 w-full mx-auto max-w-7xl font-bebas">
+            <h1 class="text-2xl">Jhakanaka production</h1>
+            <ul class="flex gap-4">
+                <li>Home</li>
+                <li>About</li>
+                <li>Movies</li>
+            </ul>
+        </div>
+    </nav>
+    <section class="h-screen bg-[url('./images/banner.jpg')] bg-red-500 bg-cover">
+        <div class="h-full flex  pt-20 w-full max-w-7xl items-center">
+            <div class="font-bebas mx-10">
+                <h2 class="text-white  ">Movie production studio</h2>
+                <h1 class="text-8xl ">Films made to</h1>
+                <h1 class="text-8xl  text-yellow">Perfection </h1>
+                <p class="max-w-lg  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+                    nec
+                    ullamcorper mattis, pulvinar dapibus leo.</p>
+                <button
+                    class="border border-2 border-white px-3 text-2xl my-5  py-2 hover:bg-yellow hover:border-yellow transition-all">Discover
+                    More</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="my-32">
+        <div class="border mx-auto border-2 border-black max-w-7xl w-full mx-5 ">
+            <div class="lg:flex p-5 mb-10">
+                <div
+                    class="w-full lg:w-1/2 bg-red-500 h-[500px] bg-[url('./images/camera-man.jpg')] bg-cover bg-center flex justify-center items-end">
+                    <h1
+                        class="bg-white text-black text-2xl font-bebas w-full mx-5 text-center px-5 py-3 rounded-md -mb-7 shadow-lg">
+                        23 YEARS of EXPERIENCE
+                    </h1>
+                </div>
+                <div class="w-full lg:w-1/2 p-5 font-bebas">
+                    <h2 class="text-lg">About us</h2>
+                    <h1 class="text-7xl">FIlming Experience</h1>
+                    <h1 class="text-7xl">Just Got better</h1>
+                    <p class="font-montserrat mb-10">
+                        Primis lobortis adipiscing imperdiet dis ultricies. Id commodo
+                        interdum fermentum pede dictumst ipsum. Erat sapien phasellus
+                        suspendisse natoque nulla leo ornare mi. Pretium rhoncus venenatis
+                        ante dignissim aliquet faucibus tempus etiam feugiat.
+                    </p>
+                    <button
+                        class="font-bebas border-2 border-black py-2 px-3 text-black text-lg hover:bg-yellow hover:border-yellow hover:text-black transition-all">
+                        Discover more
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid  grid-cols-3 mb-4">
+                <div class="mx-3  ">
+                    <div class="bg-black h-1 w-full mb-2"></div>
+                    <h1 class=" text-5xl font-bold font-bebas">OUR VISION</h1>
+                    <p class="text-lg font-montserrat "> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                        elit tellus,
+                        luctus
+                        nec ullamcorper
+                        mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div class="mx-3  ">
+                    <div class="bg-black h-1 w-full mb-2"></div>
+                    <h1 class=" text-5xl font-bold font-bebas">OUR VISION</h1>
+                    <p class="text-lg font-montserrat "> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                        elit tellus,
+                        luctus
+                        nec ullamcorper
+                        mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div class="mx-3  ">
+                    <div class="bg-black h-1 w-full mb-2"></div>
+                    <h1 class=" text-5xl font-bold font-bebas">OUR VISION</h1>
+                    <p class="text-lg font-montserrat "> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                        elit tellus,
+                        luctus
+                        nec ullamcorper
+                        mattis, pulvinar dapibus leo.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="w-full h-screen bg-gray">
+        <div class="flex justify-between mx-7 py-10">
+            <div class="text-white font-bebas">
+                <h2 class=" font-bold">OUR MOVIES </h2>
+                <h1 class="text-7xl">Movie collection </h1>
+            </div>
+            <button
+                class="border border-2 border-white px-3 text-2xl my-5  py-1 hover:bg-yellow hover:border-yellow transition-all">Discover
+                More</button>
+        </div>
+        <div class="grid grid-cols-4 p-3 gap-4">
+            <div class="border-2 border-white h-[700px] md:h-[50px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/fractured.jpg')] h-full w-full bg-cover"></div>
+            </div>
+            <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/fractured.jpg')] h-full w-full bg-cover"></div>
+            </div>
+            <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/fractured.jpg')] h-full w-full bg-cover"></div>
+            </div>
+            <div class="border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/fractured.jpg')] h-full w-full bg-cover"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
